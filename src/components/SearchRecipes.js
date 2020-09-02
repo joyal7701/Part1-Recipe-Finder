@@ -31,7 +31,7 @@ class SearchRecipes extends Component {
           <ControlLabel>Ingredients</ControlLabel>{" "}
           <FormControl
             type="text"
-            placeholder="garlic, chicken"
+            placeholder="Cheese, Thin Crust"
             onChange={(event) =>
               this.setState({ ingredients: event.target.value })
             }
@@ -41,7 +41,7 @@ class SearchRecipes extends Component {
           <ControlLabel>Dish</ControlLabel>{" "}
           <FormControl
             type="text"
-            placeholder="adobo"
+            placeholder="Pizza"
             onChange={(event) => this.setState({ dish: event.target.value })}
           />
         </FormGroup>{" "}
